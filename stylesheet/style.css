@@ -1,0 +1,39 @@
+
+
+ 
+.raleway-primaryfont {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+   
+  font-style: normal;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size:34px ;
+     font-weight: bold;
+     color: #4E47FF;
+     margin: 50px 0px 0px 150px;
+}
+ .blue-button{
+     width: 132px;
+    height: 48px;
+    margin:50px 150px 0px 0px ;
+    color:#ffffff;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+ }
+ .cool-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin: 160px 267px 237px 267px;
+
+ }
