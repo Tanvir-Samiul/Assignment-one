@@ -70,6 +70,7 @@ main{
    max-width: 940px;
     
    margin: 0px 160px 0px  130px;
+ 
 }
 
 .writing{
@@ -278,4 +279,36 @@ textarea {
 }
  .button-design:hover {
     background-color: #1eb300;
+}
+
+/* footer */
+.footer-logo{
+   color: blue;
+   font-size:80px;
+   font-weight: bolder;
+ }
+ 
+ .footer-container{
+    justify-content: center;
+    text-align: center;
+ }
+ .footer-nav a{
+   justify-content: space-around;
+   text-decoration: none;
+   color: black;
+   margin: 10px;
+ }
+ .footer-nav{
+   justify-content: center;
+ }
+ footer{
+   background-color: white;
+ }
+ body{
+   background-color: #e2ebfc;
+ }
+
+*{
+   margin: 0px;
+   padding: 0px;
 }
