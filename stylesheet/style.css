@@ -148,4 +148,76 @@ main{
 font-size: 20px;
 color: #000000;
 margin-top: 4px;
+} 
+/* review card style */
+ 
+.container{
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.review-section {
+     
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+ .review-title {
+    color: #333;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.stars {
+    height: 25px;  
+    margin-bottom: 10px;
+    background-image: url('../Assets/icon-star.png');
+    background-repeat: repeat-x;
+    background-size: 20px;  
+    width: 100px;  
+}
+.loved-by {
+     
+    margin: 0px;
+    font-size: 16px;
+}
+.this-tem {
+    
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.review-name{
+    margin: 0;
+    font-size: 12px;
+    color: #666;
 }
