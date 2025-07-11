@@ -30,10 +30,34 @@ nav{
     border-radius: 5px;
     border: none;
  }
+
+ /* hero section style */
+ .hero-title{
+    font-family:"raleway";
+    justify-content: center;
+    text-align: center;
+    
+
+ }
  .cool-title{
     font-size: 65px;
     font-weight: bold;
     color: #252432;
-    margin: 160px 267px 237px 267px;
+    margin-top: 158px;
+    margin-bottom: 10px;
+     
+    
+ }
 
+ .second-title{
+  font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 5px;
+ }
+ .second-button{
+    margin: 0px 643px 152px 560px;
+ }
+ header{
+    background-image: url('/Assets/Hero-bg.png');
  }
